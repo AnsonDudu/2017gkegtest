@@ -15,6 +15,12 @@ function removeClass(obj, cls) {
 
 $('button3').addEventListener('click', function(){
 	removeClass($('mute'),'hidden');
-	removeClass($('button2'),'animated');
-	removeClass($('button3'),'animated');
-});
+	removeClass($('button2'),'pulse');
+	removeClass($('button3'),'pulse');
+},false);
+
+$('button3').addEventListener('touchstart', function(){
+	removeClass($('mute'),'hidden');
+	removeClass($('button2'),'pulse');
+	removeClass($('button3'),'pulse');
+},false);
