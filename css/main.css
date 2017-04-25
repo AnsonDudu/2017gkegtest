@@ -1,0 +1,110 @@
+#background{
+	background-image: url('../images/bg.jpg');
+	max-width: 960px;
+	width:100%;
+    height:100%;
+    background-size:100% 100%;
+    position:absolute;
+}
+
+#paper{
+	background-image: url('../images/paper.png');
+	width:68%;
+    height:56%;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 21%;
+    left: 16%;
+}
+
+#main_txt{
+	background-image: url('../images/main_text.png');
+	width:85%;
+    height:100%;
+    background-size:100% 30%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 12%;
+    left: 8%;
+}
+
+#decorate{
+	background-image: url('../images/decorate.png');
+	width: 100%;
+	height: 25%;
+	background-size:80% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 10%;
+    top: 18%;
+    z-index: 2;
+}
+
+#finger{
+	background-image: url('../images/finger.png');
+	width: 10%;
+	height: 10%;
+	background-size:100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 47.5%;
+    left: 45%;
+}
+
+#button1{
+	background-image: url('../images/button1.png');
+	width: 33.33%;
+	height: 10%;
+	background-size:100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 62.5%;
+    left: 33%;
+}
+
+#button2{
+	background-image: url('../images/button2.png');
+	width: 31.25%;
+	height: 6%;
+	background-size:100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 85%;
+    left: 15%;
+}
+
+#button3{
+	background-image: url('../images/button3.png');
+	width: 31.25%;
+	height: 6%;
+	background-size:100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 85%;
+    left: 52.5%;
+}
+
+#mute{
+	background-color: #000;
+	max-width: 960px;
+	width:100%;
+    height:100%;
+    background-size:100% 100%;
+    position:absolute;
+    opacity: 0.8
+}
+
+#share_text{
+	background-image: url('../images/mute.png');
+	width:40%;
+    height:20%;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 60%;
+}
+
+.hidden{
+	display: none;
+}
