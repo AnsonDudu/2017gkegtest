@@ -54,35 +54,35 @@
 
 #button1{
 	background-image: url('../images/button1.png');
-	width: 33.33%;
-	height: 10%;
+	width: 42%;
+	height: 15%;
 	background-size:100% 100%;
     background-repeat: no-repeat;
     position: absolute;
     top: 62.5%;
-    left: 33%;
+    left: 30%;
 }
 
 #button2{
 	background-image: url('../images/button2.png');
-	width: 31.25%;
-	height: 6%;
+	width: 36%;
+	height: 8%;
 	background-size:100% 100%;
     background-repeat: no-repeat;
     position: absolute;
-    top: 85%;
-    left: 15%;
+    top: 82.5%;
+    left: 12%;
 }
 
 #button3{
 	background-image: url('../images/button3.png');
-	width: 31.25%;
-	height: 6%;
+	width: 36%;
+	height: 8%;
 	background-size:100% 100%;
     background-repeat: no-repeat;
     position: absolute;
-    top: 85%;
-    left: 52.5%;
+    top: 82.5%;
+    left: 53.5%;
 }
 
 #mute{
